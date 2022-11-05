@@ -1,0 +1,59 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #858383;
+    z-index: 1;
+}
+
+.div_label{
+    display: flex;
+    flex-direction: column;
+}
+.div_label span{
+    text-align: left;
+    margin: 5px;
+}
+
+.btn_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn, .btn_vt{
+    width: 80px;
+    padding: 10px;
+    background: #0a830a;
+    color: #fff;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover{background: #0c740c;}
+.btn_vt{background: #b41818; width: 90px;}
+.btn_vt:hover{background: #a70d0d;}
+.opcao_voto{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.opcao_voto input{
+    width: 20px;
+}
+
+.opcao_voto label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
